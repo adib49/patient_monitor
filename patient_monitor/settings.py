@@ -28,7 +28,7 @@ AUTH_USER_MODEL = 'monitor_app.User'
 SECRET_KEY = 'django-insecure-dummy-secret-key-for-easy-assessment' #easy secret given here only for easy assessment purpose
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
