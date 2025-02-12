@@ -6,7 +6,7 @@
 ### Database Design
 1. User-Patient Relationship:
    - One-to-many relationship between users (healthcare providers) and patients
-   - Assumes one patient is primarily assigned to one healthcare provider
+   - Assumes many patients can be assigned to one healthcare provider
    - Allows for easy tracking of patient assignments
 
 2. Heart Rate Monitoring:
