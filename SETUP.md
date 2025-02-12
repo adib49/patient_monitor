@@ -38,7 +38,7 @@ Sample registration payload:
 }
 ```
 
-For full documentation and details, continue reading below.
+For full documentation and details, continue reading below and for api endpoints check api_documentation.md
 
 
 ## Tech Stack
