@@ -48,7 +48,7 @@
   - **Code**: 200 OK
   - **Content**: Array of patient objects
 ```json
-[
+
     {
         "id": 1,
         "first_name": "Rajeshwari",
@@ -59,7 +59,7 @@
         "address": "5th main , indianexpress ,Bangalore 560001",
         "assigned_to": 1
     }
-]
+
 ```
 
 ### Create Patient
@@ -100,7 +100,7 @@
   - **Code**: 200 OK
   - **Content**: Array of heart rate records
 ```json
-[
+
     {
         "id": 1,
         "patient": 1,
@@ -108,7 +108,7 @@
         "recorded_at": "2024-02-12T14:30:00Z",
         "notes": "Regular checkup"
     }
-]
+
 ```
 
 ### Create Heart Rate Record
