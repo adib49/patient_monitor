@@ -16,7 +16,6 @@
 
 ### Authentication
 - Simple email/password authentication implemented
-- Token-based authentication could be added for production
 - Assumes single-tenant system (all users within same organization)
 
 ### API Design
