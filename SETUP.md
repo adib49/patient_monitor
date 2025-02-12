@@ -4,7 +4,7 @@
 
 ```bash
 # 1. Clone and enter project
-git clone https://github.com/yourusername/patient-monitor.git
+git clone https://github.com/adib49/patient-monitor.git
 cd patient-monitor
 
 # 2. Create and activate virtual environment
