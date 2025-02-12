@@ -9,9 +9,9 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ('id','email','username','password','first_name','last_name')
         extra_kwargs = {'password':{'write-only':True}}
 
-        def create(self, validated_data):
-            user = User.objects.create_user(**validated_data)
-            return user
+    def create(self, validated_data):
+        user = User.objects.create_user(**validated_data)
+        return user
 
 class PatientSerializer(serializers.ModelSerializer):
     class Meta:
