@@ -38,7 +38,7 @@ class Patient(models.Model):
     address = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    assigned_to = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, related_name='patients')
+    assigned_to = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,blank=True,related_name='patients')
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
