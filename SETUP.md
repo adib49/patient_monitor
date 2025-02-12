@@ -5,7 +5,7 @@
 ```bash
 # 1. Clone and enter project
 git clone https://github.com/adib49/patient_monitor
-cd patient-monitor
+cd patient_monitor
 
 # 2. Create and activate virtual environment
 python -m venv venv
