@@ -22,7 +22,7 @@ AUTH_USER_MODEL = 'monitor_app.User'
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-dummy-secret-key-for-easy-assessment' #easy secret given here only for easy assessment purpose
+SECRET_KEY = 'django-insecure-dummy-secret-key-for-easy-assessment' #easy secret_key given here only for easy assessment purpose
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
