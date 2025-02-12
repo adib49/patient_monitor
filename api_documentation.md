@@ -1,4 +1,4 @@
-# Patient Monitoring System API Documentation
+# Patient Monitoring System RESTful APIs Documentation 
 
 ## Authentication Endpoints
 

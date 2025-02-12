@@ -1,7 +1,7 @@
 ### Note
 ### Janitri Backend Assignment
 1. Read SETUP.md for the full setup and running tests.
-2. Read api_documentation.d for api documentation.
+2. Read api_documentation.md for api documentation.
 
 ### Database Design
 1. User-Patient Relationship:
@@ -16,7 +16,6 @@
 
 ### Authentication
 - Simple email/password authentication implemented
-- Token-based authentication could be added for production
 - Assumes single-tenant system (all users within same organization)
 
 ### API Design
