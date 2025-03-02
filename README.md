@@ -1,5 +1,4 @@
 ### Note
-### Janitri Backend Assignment
 1. Read SETUP.md for the full setup and running tests.
 2. Read api_documentation.md for api documentation.
 
